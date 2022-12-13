@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Needed css  */
+@font-face {
+        font-family: Helvetica;
+        src: url(../fonts/Helvetica.ttf);      
+} 
+body{
+    font-family: Helvetica;
+}
+h1, h2, h3, h4, h5, h6, p, span, ul, a{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.t-left{
+    text-align: left;
+}
+.t-right{
+    text-align: right;
+}
+.t-center{
+    text-align: center;
+}
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.clear::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+img{
+    max-width: 100%;
+    margin-left: 100px;
+}
+.wrapper{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.fixed-with{
+    width: 1250px;
+    height:auto;
+}
+.text-center{
+    text-align: center;
+    color: white;
+}
+.span{
+    font-size: 30px;
+    color: forestgreen;
+}
+.about{
+    text-align: center;
+}
+
+
+
+
+.header{
+background-color:white;
+}
+.header-left{
+  float: left;
+  width: 30%;
+}
+.header-left img{
+    width: 110px;
+}
+.header-right{
+    float: right;
+    width: 70%;
+}
+.header-right ul{
+    text-align: right;
+   
+}
+.header-right ul li{
+    display: inline-block;
+
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 20px;
+    color: rgb(159, 21, 21);
+    line-height: 60px;
+    
+}
+/* banar section */
+.banar{
+    padding: 200px 0px ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  color: white;
+  background-image:url(https://i.ibb.co/C6Y0CMJ/kobu-agency-IWLR561-Yb-MY-unsplash.jpg)
+
+}
+.banar ::after{
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    
+}
+.banar h5{
+font-size: 20px;
+font-weight: 400px;
+}
+.banar h1{
+    font-size: 50px;
+    font-weight: 600px;
+    margin: 30px 0px;
+}
+.common-a{
+    color: rgba(113, 117, 117, 0.904);
+    padding: 20px 30px;
+    font-size: 25px;
+    display: inline-block;
+    background-color:#fff;
+    border-radius: 10px;
+    margin-left: 5px;
+    transition: .5s;
+    
+}
+.common-a:hover{
+    background-color: rgb(106, 143, 30);
+
+}
+.price-titel{
+    margin-top: 20px;
+   color: black;
+}
+.pricing-tables-section{
+    background: #f7f9ff;
+    padding: 50px;
+    
+}
+.price-tables-section{}
+.pricing-tables-items{
+    width: 31.3%;
+    margin-right: 2%;
+    background: #fff;
+
+}
+.p-headding{}
+.p-headding h2{}
+.p-headding h1{}
+.p-headding h3{}
+.p-headding h5{}
+.p-content{}
+.p-content ul{}
+.p-content ul li{}
+
+    
+
+
+
+
+
+
+
